@@ -1,10 +1,21 @@
 #!/usr/bin/python3
-"""The module that defines a user class"""
+"""Module base_model
 
-from models.base_model.py import BaseModel
+This Module contains a definition for User Class
+"""
+
+from models.base_model import BaseModel
+
 
 class User(BaseModel):
-    """the User class"""
+    """A class that represents a user.
+
+    Attributes:
+        email (str): The email of the user.
+        password (str): The password of the user.
+        first_name (str): The first name of the user.
+        last_name (str): The last name of the user.
+    """
 
     email = ""
     password = ""

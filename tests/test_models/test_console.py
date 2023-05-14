@@ -203,4 +203,4 @@ class TestConsole(unittest.TestCase):
             self.assertIn('name', output.getvalue())
             self.assertIn('amne', output.getvalue())
             self.assertIn('rev_k', output.getvalue())
-            self.assertIn('rev_v', output.getvalue())
+            self.assertIn('rev_v', output.getvalue()

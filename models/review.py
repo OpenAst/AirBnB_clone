@@ -1,10 +1,20 @@
 #!/usr/bin/python3
-"""A module that create a Review class"""
+"""Module base_model
 
-from models/base_model.py import BaseModel
+This Module contains a definition for Amenity Class
+"""
+
+from models.base_model import BaseModel
+
 
 class Review(BaseModel):
-    """The Review class"""
+    """A class that represents a review
+
+    Attributes:
+        place_id (str): The Place id.
+        user_id (str): The User id.
+        text (str): The text of the review.
+    """
 
     place_id = ""
     user_id = ""

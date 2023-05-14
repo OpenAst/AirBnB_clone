@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-#A script that defines an empty file
+"""Creates a unique FileStorage instance for the application"""
 
 from models.engine.file_storage import FileStorage
-storage = Storage()
+
+
+storage = FileStorage()
 storage.reload()
